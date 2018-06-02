@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>PMasta.Learning.DesignPatterns</AssemblyName>
+    <RootNamespace>PMasta.Learning.DesignPatterns</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Creational\" />
+    <Folder Include="Behavioral\" />
+    <Folder Include="Enterprise\" />
+    <Folder Include="Presentation\" />
+    <Folder Include="Structural\" />
+  </ItemGroup>
+
+</Project>
