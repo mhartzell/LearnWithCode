@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
+namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory.Products
 {
     /// <summary>
     /// A concrete implementation of the <see cref="IMilk"/> Abstract Product.
     /// </summary>
-    internal class MilkDarigold : IMilk
+    internal class MilkTillamook : IMilk
     {
-        public string Brand => "Darigold";
+        public string Brand => "Tillamook";
 
         public string Description => "Milk";
     }

@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
+namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory.Products
 {
     /// <summary>
     /// A concrete implementation of the <see cref="IButter"/> Abstract Product.
     /// </summary>
-    internal class ButterAlpenrose : IButter
+    internal class ButterTillamook : IButter
     {
-        public string Brand => "Alpenrose";
+        public string Brand => "Tillamook";
 
         public string Description => "Butter";
     }

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using PMasta.Learning.DesignPatterns.Creational.AbstractFactory.Products;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
+namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory.Factories
 {
     /// <summary>
     /// A concrete implementation of the Abstract Factory.
