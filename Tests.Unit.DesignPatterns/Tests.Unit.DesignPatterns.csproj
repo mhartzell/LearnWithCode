@@ -18,10 +18,13 @@
 
   <ItemGroup>
     <Folder Include="Behavioral\" />
-    <Folder Include="Creational\" />
     <Folder Include="Enterprise\" />
     <Folder Include="Presentation\" />
     <Folder Include="Structural\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj" />
   </ItemGroup>
 
 </Project>
