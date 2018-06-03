@@ -6,7 +6,7 @@ using System.Text;
 namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
 {
     /// <summary>
-    /// A quick and dirty service to provide to construct a concrete factory based on product family.
+    /// A quick and dirty service to provide construction of a concrete factory based on product family.
     /// </summary>
     public static class GroceryFactoryService
     {

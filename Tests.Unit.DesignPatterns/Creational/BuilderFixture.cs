@@ -12,7 +12,7 @@ namespace PMasta.Learning.Tests.Unit.DesignPatterns.Creational
         [TestMethod]
         public void BuildConvertibleSucceeds()
         {
-            IVehicleBuilder builder = VehicleService.GetBuilder(CarType.Convertible);
+            IVehicleBuilder builder = VehicleService.GetBuilder(VehicleType.Convertible);
             VehicleService.BuildCar(builder);
             IVehicle vehicle = builder.GetVehicle();
 
@@ -25,7 +25,7 @@ namespace PMasta.Learning.Tests.Unit.DesignPatterns.Creational
         [TestMethod]
         public void BuildSedanSucceeds()
         {
-            IVehicleBuilder builder = VehicleService.GetBuilder(CarType.Sedan);
+            IVehicleBuilder builder = VehicleService.GetBuilder(VehicleType.Sedan);
             VehicleService.BuildCar(builder);
             IVehicle vehicle = builder.GetVehicle();
 
@@ -38,7 +38,7 @@ namespace PMasta.Learning.Tests.Unit.DesignPatterns.Creational
         [TestMethod]
         public void BuildTruckSucceeds()
         {
-            IVehicleBuilder builder = VehicleService.GetBuilder(CarType.Truck);
+            IVehicleBuilder builder = VehicleService.GetBuilder(VehicleType.Truck);
             VehicleService.BuildCar(builder);
             IVehicle vehicle = builder.GetVehicle();
 

@@ -1,5 +1,8 @@
 ﻿namespace PMasta.Learning.DesignPatterns.Creational.Builder.Products
 {
+    /// <summary>
+    /// A concrete implementation of the Product (vehicle).
+    /// </summary>
     internal class Vehicle : IVehicle
     {
         private string _engine;

@@ -4,6 +4,9 @@ using System.Text;
 
 namespace PMasta.Learning.DesignPatterns.Creational.Builder.Builders
 {
+    /// <summary>
+    /// Concrete Builder implementation.
+    /// </summary>
     internal class ConvertibleBuilder : VehicleBuilder
     {
         public override void BuildEngine()

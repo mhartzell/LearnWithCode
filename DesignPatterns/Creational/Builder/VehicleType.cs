@@ -1,6 +1,9 @@
 ﻿namespace PMasta.Learning.DesignPatterns.Creational.Builder
 {
-    public enum CarType
+    /// <summary>
+    /// The type of vehicle.
+    /// </summary>
+    public enum VehicleType
     {
         Convertible,
         Sedan,
