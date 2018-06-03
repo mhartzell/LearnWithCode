@@ -7,7 +7,7 @@ using System.Text;
 namespace PMasta.Learning.Tests.Unit.DesignPatterns.Creational
 {
     /// <summary>
-    /// Tests related to the Abstract Factory.
+    /// Tests related to the Abstract Factory pattern.
     /// </summary>
     [TestClass]
     public class AbstractFactoryFixture
