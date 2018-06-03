@@ -6,4 +6,12 @@
     <RootNamespace>PMasta.Learning.CodingExercises</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="1-EntryLevel\" />
+    <Folder Include="2-MidLevel\" />
+    <Folder Include="3-SeniorLevel\" />
+    <Folder Include="4-AdvisoryLevel\" />
+    <Folder Include="5-UberLevel\" />
+  </ItemGroup>
+
 </Project>
