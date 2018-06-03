@@ -8,7 +8,7 @@ namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
     /// A concrete implementation of the Abstract Factory.
     /// </summary>
     /// <remarks>This factory constructs products in the Alepnrose family.</remarks>
-    public class FactoryAlpenrose : IGroceryItemFactory
+    internal class FactoryAlpenrose : IGroceryItemFactory
     {
         public IButter ConstructButter()
         {

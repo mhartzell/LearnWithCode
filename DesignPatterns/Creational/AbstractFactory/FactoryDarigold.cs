@@ -8,7 +8,7 @@ namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
     /// A concrete implementation of the Abstract Factory.
     /// </summary>
     /// <remarks>This factory constructs products in the Darigold family.</remarks>
-    public class FactoryDarigold : IGroceryItemFactory
+    internal class FactoryDarigold : IGroceryItemFactory
     {
         public IButter ConstructButter()
         {

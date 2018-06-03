@@ -7,7 +7,7 @@ namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
     /// <summary>
     /// A concrete implementation of the <see cref="IMilk"/> Abstract Product.
     /// </summary>
-    public class MilkAlpenrose : IMilk
+    internal class MilkAlpenrose : IMilk
     {
         public string Brand => "Alpenrose";
 

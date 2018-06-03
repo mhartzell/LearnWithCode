@@ -7,7 +7,7 @@ namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
     /// <summary>
     /// A concrete implementation of the <see cref="IEggs"/> Abstract Product.
     /// </summary>
-    public class EggsTillamook : IEggs
+    internal class EggsTillamook : IEggs
     {
         public string Brand => "Tillamook";
 

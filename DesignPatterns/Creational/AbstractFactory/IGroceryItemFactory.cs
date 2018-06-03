@@ -8,10 +8,14 @@ namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
     /// A interface defining the Abstract Factory object creational pattern.
     /// </summary>
     /// <remarks>
-    /// The Abstract Factory pattern provides an interface for creating families of related or dependent
+    /// <para>The Abstract Factory pattern provides an interface for creating families of related or dependent
     /// objects without specifying their concrete classes.  The factory has methods for returning instances of 
     /// certain products (in this case, grocery items), but consuming clients are not aware of of the concrete
-    /// classes they are using.
+    /// classes they are using.</para>
+    /// <para>Do note that this implementation uses an interface to declare the factory.  The "Abstract" in the 
+    /// Abstract Factory pattern has nothing to with the literal abstract keyword in C#, but rather describes the 
+    /// concept that the factory abstracts the process of product creation.  An abstract class may be required, 
+    /// depending on needs.</para>
     /// </remarks>
     public interface IGroceryItemFactory
     {

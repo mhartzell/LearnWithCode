@@ -8,7 +8,7 @@ namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
     /// A concrete implementation of the Abstract Factory.
     /// </summary>
     /// <remarks>This factory constructs products in the Tillamook family.</remarks>
-    public class FactoryTillamook : IGroceryItemFactory
+    internal class FactoryTillamook : IGroceryItemFactory
     {
         public IButter ConstructButter()
         {
