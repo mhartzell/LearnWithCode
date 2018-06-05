@@ -7,9 +7,9 @@
     /// and then uses those prototypes to create new objects.  The key point is the implementation of
     /// the Clone method, which allows a Prototype to provide a copy of itself.  The Clone operation can
     /// be quite complex, depending on the complexity of the objects being cloned.
-    /// <typeparam name="TType">The <see cref="Type"/> of the Prototype.</typeparam>
-    public interface IPrototype<TType>
+    /// <typeparam name="T">The <see cref="Type"/> of the Prototype.</typeparam>
+    public interface IPrototype<T>
     {
-        TType Clone();
+        T Clone();
     }
 }

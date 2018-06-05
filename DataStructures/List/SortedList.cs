@@ -2,23 +2,23 @@
 using System.Collections;
 using System.Text;
 
-namespace PMasta.Learning.DataStructures.Lists
+namespace PMasta.Learning.DataStructures.List
 {
     /// <summary>
     /// A concrete implementation of a List, with sorting.
     /// </summary>
     /// <remarks>
     /// The sorted list is virtually identical to the unsorted list, aside from its sorting behavior.  Therefore, we can use the 
-    /// <see cref="UnsortedList{TType}"/> to do most of the heavy lifting for us, and simply override the methods that require
+    /// <see cref="UnsortedList{T}"/> to do most of the heavy lifting for us, and simply override the methods that require
     /// sorting logic (Add and Remove).
     /// </remarks>
-    public class SortedList<TType> : UnsortedList<TType>, IList<TType>
-        where TType : IComparable
+    public class SortedList<T> : UnsortedList<T>, IList<T>
+        where T : IComparable
     {
         public SortedList(int size) : base(size)
         { }
 
-        public override void AddItem(TType item)
+        public override void AddItem(T item)
         {
             if (this.IsFull())
             {
@@ -58,7 +58,7 @@ namespace PMasta.Learning.DataStructures.Lists
 
         }
 
-        public override void RemoveItem(TType item)
+        public override void RemoveItem(T item)
         {
             if (!this.Contains(item))
             {
@@ -75,7 +75,7 @@ namespace PMasta.Learning.DataStructures.Lists
             }
 
             // Reset the last spot in the list
-            this._list[this._list.Length - 1] = default(TType);
+            this._list[this._list.Length - 1] = default(T);
 
             this._itemCount--;
 

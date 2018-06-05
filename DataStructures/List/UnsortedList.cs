@@ -1,18 +1,19 @@
 ﻿using System;
 
-namespace PMasta.Learning.DataStructures.Lists
+namespace PMasta.Learning.DataStructures.List
 {
     /// <summary>
     /// A concrete implementation of a List, unsorted.
     /// </summary>
-    /// <typeparam name="TType">The type of object to store in the list.</typeparam>
+    /// <typeparam name="T">The type of object to store in the list.</typeparam>
     /// <remarks>Add and Remove are marked as virtual, to allow subclasses to provide their own behavior for adding and 
-    /// removing items (such as a list that is sorted, for example.)</remarks>
-    public class UnsortedList<TType> : IList<TType>
+    /// removing items (such as a list that is sorted, for example).  It's worth noting that this particular implementation
+    /// of a list expects unique items / keys.</remarks>
+    public class UnsortedList<T> : IList<T>
     {
         protected int _itemCount = 0;
         protected int _iteratorIndex = 0;
-        protected readonly TType[] _list;
+        protected readonly T[] _list;
 
         public UnsortedList(int size)
         {
@@ -21,10 +22,10 @@ namespace PMasta.Learning.DataStructures.Lists
                 throw new InvalidOperationException("You must provide a size greater than zero.");
             }
 
-            this._list = new TType[size];
+            this._list = new T[size];
         }
 
-        public virtual void AddItem(TType item)
+        public virtual void AddItem(T item)
         {
             if(this.IsFull())
             {
@@ -41,7 +42,7 @@ namespace PMasta.Learning.DataStructures.Lists
             this._itemCount++;
         }
 
-        public bool Contains(TType item)
+        public bool Contains(T item)
         {
             bool result = false;
 
@@ -61,15 +62,15 @@ namespace PMasta.Learning.DataStructures.Lists
         {
             for (int i = 0; i < this._list.Length; i++)
             {
-                this._list[i] = default(TType);
+                this._list[i] = default(T);
             }
 
             this._itemCount = 0;
         }
 
-        public TType GetNextItem()
+        public T GetNextItem()
         {
-            TType item = this._list[this._iteratorIndex];
+            T item = this._list[this._iteratorIndex];
 
             if (this._iteratorIndex < this._list.Length - 1)
             {
@@ -89,7 +90,7 @@ namespace PMasta.Learning.DataStructures.Lists
             return _itemCount;
         }
 
-        public virtual void RemoveItem(TType item)
+        public virtual void RemoveItem(T item)
         {
             if(!this.Contains(item))
             {
@@ -105,7 +106,7 @@ namespace PMasta.Learning.DataStructures.Lists
             }
 
             // Reset the last spot in the list
-            this._list[this._list.Length - 1] = default(TType);
+            this._list[this._list.Length - 1] = default(T);
 
             this._itemCount--;
         }
@@ -115,7 +116,7 @@ namespace PMasta.Learning.DataStructures.Lists
             this._iteratorIndex = 0;
         }
 
-        public int GetIndex(TType item)
+        public int GetIndex(T item)
         {
             int index = 0;
 

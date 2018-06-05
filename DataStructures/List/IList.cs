@@ -1,23 +1,26 @@
-﻿namespace PMasta.Learning.DataStructures.Lists
+﻿namespace PMasta.Learning.DataStructures.List
 {
     /// <summary>
-    /// Defines an interface for a basic List that is not sorted.
+    /// Defines an interface for a basic List data structure.
     /// </summary>
-    /// <typeparam name="TType">The type of objects to be stored in the list.</typeparam>
-    public interface IList<TType>
+    /// <typeparam name="T">The type of objects to be stored in the list.</typeparam>
+    /// <remarks>
+    /// A list is a homogenous collection of elements, with a linear relationship between those elements.  
+    /// </remarks>
+    public interface IList<T>
     {
         /// <summary>
         /// Adds an item to the list.
         /// </summary>
         /// <param name="item">The item to add.</param>
-        void AddItem(TType item);
+        void AddItem(T item);
 
         /// <summary>
         /// True if the list contains the item specified.
         /// </summary>
         /// <param name="item">The item to search for.</param>
         /// <returns>True if found.</returns>
-        bool Contains(TType item);
+        bool Contains(T item);
 
         /// <summary>
         /// Empties the list of all items.
@@ -28,7 +31,7 @@
         /// Gets in the next item in the list.
         /// </summary>
         /// <returns></returns>
-        TType GetNextItem();
+        T GetNextItem();
 
         /// <summary>
         /// True if the list is full.
@@ -46,7 +49,7 @@
         /// Removes an item from the list.
         /// </summary>
         /// <param name="item">The item to remove.</param>
-        void RemoveItem(TType item);
+        void RemoveItem(T item);
 
         /// <summary>
         /// Sets the list iterator to the beginning of the list.
