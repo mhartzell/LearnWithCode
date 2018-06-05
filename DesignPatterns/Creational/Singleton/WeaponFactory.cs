@@ -9,7 +9,7 @@
 	/// In this example, there should only be on instance of <see cref="WeaponFactory"/>, regardless of the chosen 
 	/// implementation.
 	/// </remarks>
-	public class WeaponFactory : IWeaponFactory
+	public class WeaponFactory
 	{
 		/// <summary>
 		/// The Singleton instance.
