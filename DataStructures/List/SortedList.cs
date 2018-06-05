@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Text;
 
-namespace PMasta.Learning.DataStructures.List
+namespace PMasta.LearnWithCode.DataStructures.List
 {
     /// <summary>
     /// A concrete implementation of a List, with sorting.

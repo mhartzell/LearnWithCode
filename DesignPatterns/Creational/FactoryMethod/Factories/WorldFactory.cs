@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.FactoryMethod.Factories
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.FactoryMethod.Factories
 {
     /// <summary>
     /// A abstract implemention of the <see cref="IWorldFactory"/>.  

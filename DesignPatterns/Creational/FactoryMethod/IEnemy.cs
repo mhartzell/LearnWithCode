@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.FactoryMethod
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.FactoryMethod
 {
     /// <summary>
     /// Defines a generic interface for a game world enemy, the generic Product constructed by the Factory Method.

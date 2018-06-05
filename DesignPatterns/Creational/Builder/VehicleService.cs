@@ -1,6 +1,6 @@
-﻿using PMasta.Learning.DesignPatterns.Creational.Builder.Builders;
+﻿using PMasta.LearnWithCode.DesignPatterns.Creational.Builder.Builders;
 
-namespace PMasta.Learning.DesignPatterns.Creational.Builder
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.Builder
 {
     /// <summary>
     /// A quick and dirty service to abstract the instantiation of a <see cref="IVehicleBuilder"/> and to start

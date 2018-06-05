@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.DesignPatterns.Creational.Singleton
+﻿namespace PMasta.LearnWithCode.DesignPatterns.Creational.Singleton
 {
 	/// <summary>
 	/// A class implementing the Single object creational pattern.

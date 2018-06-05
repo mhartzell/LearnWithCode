@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PMasta.Learning.DesignPatterns.Creational.Prototype;
+using PMasta.LearnWithCode.DesignPatterns.Creational.Prototype;
 
-namespace PMasta.Learning.Tests.Unit.DesignPatterns.Creational
+namespace PMasta.LearnWithCode.Tests.Unit.DesignPatterns.Creational
 {
     [TestClass]
     public class PrototypeFixture

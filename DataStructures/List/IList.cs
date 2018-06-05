@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.DataStructures.List
+﻿namespace PMasta.LearnWithCode.DataStructures.List
 {
     /// <summary>
     /// Defines an interface for a basic List data structure.

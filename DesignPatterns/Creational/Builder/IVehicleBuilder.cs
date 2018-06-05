@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.DesignPatterns.Creational.Builder
+﻿namespace PMasta.LearnWithCode.DesignPatterns.Creational.Builder
 {
     /// <summary>
     /// An interface defining the Builder object creational pattern.

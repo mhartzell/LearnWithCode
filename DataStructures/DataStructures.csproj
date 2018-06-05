@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>PMasta.Learning.DataStructures</AssemblyName>
-    <RootNamespace>PMasta.Learning.DataStructures</RootNamespace>
+    <AssemblyName>PMasta.LearnWithCode.DataStructures</AssemblyName>
+    <RootNamespace>PMasta.LearnWithCode.DataStructures</RootNamespace>
   </PropertyGroup>
 
 </Project>

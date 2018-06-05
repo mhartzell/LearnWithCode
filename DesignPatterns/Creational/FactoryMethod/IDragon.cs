@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.FactoryMethod
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.FactoryMethod
 {
     /// <summary>
     /// An interface defining a Dragon enemy.

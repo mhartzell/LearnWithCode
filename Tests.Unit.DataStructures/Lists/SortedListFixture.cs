@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PMasta.Learning.DataStructures.List;
+using PMasta.LearnWithCode.DataStructures.List;
 using System;
 
-namespace PMasta.Learning.Tests.Unit.DataStructures.List
+namespace PMasta.LearnWithCode.Tests.Unit.DataStructures.List
 {
     /// <summary>
     /// Tests related to the Sorted List.

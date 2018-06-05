@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>PMasta.Learning.DesignPatterns</AssemblyName>
-    <RootNamespace>PMasta.Learning.DesignPatterns</RootNamespace>
+    <AssemblyName>PMasta.LearnWithCode.DesignPatterns</AssemblyName>
+    <RootNamespace>PMasta.LearnWithCode.DesignPatterns</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

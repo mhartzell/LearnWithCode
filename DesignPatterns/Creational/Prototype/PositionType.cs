@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.DesignPatterns.Creational.Prototype
+﻿namespace PMasta.LearnWithCode.DesignPatterns.Creational.Prototype
 {
     /// <summary>
     /// A well-known value for basketball player positions.

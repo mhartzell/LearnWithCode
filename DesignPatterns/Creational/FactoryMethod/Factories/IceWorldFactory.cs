@@ -1,6 +1,6 @@
-﻿using PMasta.Learning.DesignPatterns.Creational.FactoryMethod.Products;
+﻿using PMasta.LearnWithCode.DesignPatterns.Creational.FactoryMethod.Products;
 
-namespace PMasta.Learning.DesignPatterns.Creational.FactoryMethod.Factories
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.FactoryMethod.Factories
 {
     /// <summary>
     /// A concrete implemention of an <see cref="IWorldFactory"/>.

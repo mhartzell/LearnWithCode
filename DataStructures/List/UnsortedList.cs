@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PMasta.Learning.DataStructures.List
+namespace PMasta.LearnWithCode.DataStructures.List
 {
     /// <summary>
     /// A concrete implementation of a List, unsorted.

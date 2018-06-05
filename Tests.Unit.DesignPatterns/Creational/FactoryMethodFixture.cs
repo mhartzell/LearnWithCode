@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PMasta.Learning.DesignPatterns.Creational.FactoryMethod;
+using PMasta.LearnWithCode.DesignPatterns.Creational.FactoryMethod;
 
-namespace PMasta.Learning.Tests.Unit.DesignPatterns.Creational
+namespace PMasta.LearnWithCode.Tests.Unit.DesignPatterns.Creational
 {
     /// <summary>
     /// Tests related to the Factory Method pattern.

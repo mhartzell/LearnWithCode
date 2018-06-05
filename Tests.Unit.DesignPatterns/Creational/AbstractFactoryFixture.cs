@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PMasta.Learning.DesignPatterns.Creational.AbstractFactory;
+using PMasta.LearnWithCode.DesignPatterns.Creational.AbstractFactory;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.Tests.Unit.DesignPatterns.Creational
+namespace PMasta.LearnWithCode.Tests.Unit.DesignPatterns.Creational
 {
     /// <summary>
     /// Tests related to the Abstract Factory pattern.

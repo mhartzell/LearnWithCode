@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PMasta.Learning.DesignPatterns.Creational.Builder
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.Builder
 {
     /// <summary>
     /// Defines an interface for a vehicle.

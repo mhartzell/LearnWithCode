@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.Builder.Builders
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.Builder.Builders
 {
     /// <summary>
     /// Concrete Builder implementation.

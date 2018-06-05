@@ -1,9 +1,9 @@
-﻿using PMasta.Learning.DesignPatterns.Creational.AbstractFactory.Factories;
+﻿using PMasta.LearnWithCode.DesignPatterns.Creational.AbstractFactory.Factories;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.AbstractFactory
 {
     /// <summary>
     /// A quick and dirty service to provide construction of a concrete factory based on product family.

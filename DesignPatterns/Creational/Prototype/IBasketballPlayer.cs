@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.DesignPatterns.Creational.Prototype
+﻿namespace PMasta.LearnWithCode.DesignPatterns.Creational.Prototype
 {
     /// <summary>
     /// Defines an interface for a basketball player.

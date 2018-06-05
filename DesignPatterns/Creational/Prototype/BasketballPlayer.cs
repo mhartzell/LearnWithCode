@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.DesignPatterns.Creational.Prototype
+﻿namespace PMasta.LearnWithCode.DesignPatterns.Creational.Prototype
 {
     /// <summary>
     /// A concrete implementation of an <see cref="IBasketballPlayer"/>.

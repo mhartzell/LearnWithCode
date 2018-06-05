@@ -1,7 +1,7 @@
-﻿using PMasta.Learning.DesignPatterns.Creational.Builder.Products;
+﻿using PMasta.LearnWithCode.DesignPatterns.Creational.Builder.Products;
 using System;
 
-namespace PMasta.Learning.DesignPatterns.Creational.Builder.Builders
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.Builder.Builders
 {
     /// <summary>
     /// An abstract vehicle builder.

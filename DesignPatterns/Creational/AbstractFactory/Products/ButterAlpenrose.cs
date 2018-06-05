@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory.Products
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.AbstractFactory.Products
 {
     /// <summary>
     /// A concrete implementation of the <see cref="IButter"/> Abstract Product.

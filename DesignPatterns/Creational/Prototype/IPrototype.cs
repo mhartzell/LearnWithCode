@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.DesignPatterns.Creational.Prototype
+﻿namespace PMasta.LearnWithCode.DesignPatterns.Creational.Prototype
 {
     /// <summary>
     /// An interface defining the Prototype object creational pattern.

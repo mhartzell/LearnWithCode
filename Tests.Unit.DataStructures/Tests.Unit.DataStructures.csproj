@@ -5,9 +5,9 @@
 
     <IsPackable>false</IsPackable>
 
-    <AssemblyName>PMasta.Learning.Tests.Unit.DataStructures</AssemblyName>
+    <AssemblyName>PMasta.LearnWithCode.Tests.Unit.DataStructures</AssemblyName>
 
-    <RootNamespace>PMasta.Learning.Tests.Unit.DataStructures</RootNamespace>
+    <RootNamespace>PMasta.LearnWithCode.Tests.Unit.DataStructures</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PMasta.Learning.DesignPatterns.Creational.Prototype
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.Prototype
 {
     /// <summary>
     /// A quick a dirty service for registering and instantiating Prototypes.

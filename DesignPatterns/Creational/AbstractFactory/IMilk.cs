@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.AbstractFactory
 {
     /// <summary>
     /// Defines an interface for a milk item.

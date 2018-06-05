@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace PMasta.Learning.CodingExercises._0_PreEntryLevel
+namespace PMasta.LearnWithCode.CodingExercises._0_PreEntryLevel
 {
     /// <summary>
     /// Problem: Write a function that rearranges an integer into it's largest possible value.

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PMasta.Learning.CodingExercises._0_PreEntryLevel
+namespace PMasta.LearnWithCode.CodingExercises._0_PreEntryLevel
 {
     /// <summary>
     /// Implement a function named generateRange(min, max, step), which takes three arguments and generates a range of 

@@ -1,6 +1,6 @@
-﻿using PMasta.Learning.DesignPatterns.Creational.FactoryMethod.Factories;
+﻿using PMasta.LearnWithCode.DesignPatterns.Creational.FactoryMethod.Factories;
 
-namespace PMasta.Learning.DesignPatterns.Creational.FactoryMethod
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.FactoryMethod
 {
     /// <summary>
     /// A quick and dirty service to build a game world.

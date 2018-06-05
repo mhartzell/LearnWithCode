@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.CodingExercises._0_PreEntryLevel
+﻿namespace PMasta.LearnWithCode.CodingExercises._0_PreEntryLevel
 {
     /// <summary>
     /// Get rid of any / all trailing zeros from a number.

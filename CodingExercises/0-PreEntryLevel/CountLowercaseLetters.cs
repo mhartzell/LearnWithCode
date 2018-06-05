@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace PMasta.Learning.CodingExercises._0_PreEntryLevel
+namespace PMasta.LearnWithCode.CodingExercises._0_PreEntryLevel
 {
     public class CountLowercaseLetters
     {

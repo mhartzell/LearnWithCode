@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.DesignPatterns.Creational.FactoryMethod
+﻿namespace PMasta.LearnWithCode.DesignPatterns.Creational.FactoryMethod
 {
     /// <summary>
     /// An interface defining a Wizard enemy.

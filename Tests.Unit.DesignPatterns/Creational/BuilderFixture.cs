@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PMasta.Learning.DesignPatterns.Creational.Builder;
+using PMasta.LearnWithCode.DesignPatterns.Creational.Builder;
 
-namespace PMasta.Learning.Tests.Unit.DesignPatterns.Creational
+namespace PMasta.LearnWithCode.Tests.Unit.DesignPatterns.Creational
 {
     /// <summary>
     /// Tests related to the Builder pattern.

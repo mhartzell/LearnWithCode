@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>PMasta.Learning.CodingExercises</AssemblyName>
-    <RootNamespace>PMasta.Learning.CodingExercises</RootNamespace>
+    <AssemblyName>PMasta.LearnWithCode.CodingExercises</AssemblyName>
+    <RootNamespace>PMasta.LearnWithCode.CodingExercises</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

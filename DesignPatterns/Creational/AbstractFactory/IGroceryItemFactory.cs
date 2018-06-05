@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PMasta.Learning.DesignPatterns.Creational.AbstractFactory
+namespace PMasta.LearnWithCode.DesignPatterns.Creational.AbstractFactory
 {
     /// <summary>
     /// A interface defining the Abstract Factory object creational pattern.
