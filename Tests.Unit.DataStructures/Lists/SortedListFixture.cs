@@ -98,10 +98,12 @@ namespace PMasta.Learning.Tests.Unit.DataStructures.Lists
             Assert.IsTrue(list.GetNextItem() == 11);
             Assert.IsTrue(list.GetNextItem() == 16);
 
-            list.AddItem(0);
+            list.AddItem(2);
             list.AddItem(4);
 
-            Assert.IsTrue(list.GetNextItem() == 0);
+            list.ResetList();
+
+            Assert.IsTrue(list.GetNextItem() == 2);
             Assert.IsTrue(list.GetNextItem() == 3);
             Assert.IsTrue(list.GetNextItem() == 4);
             Assert.IsTrue(list.GetNextItem() == 11);
