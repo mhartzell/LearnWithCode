@@ -1,16 +1,18 @@
 ﻿using System;
 
-namespace PMasta.Learning.DataStructures.UnsortedList
+namespace PMasta.Learning.DataStructures.Lists
 {
     /// <summary>
-    /// A concrete implementation of an unsorted list.
+    /// A concrete implementation of a List, unsorted.
     /// </summary>
     /// <typeparam name="TType">The type of object to store in the list.</typeparam>
+    /// <remarks>Add and Remove are marked as virtual, to allow subclasses to provide their own behavior for adding and 
+    /// removing items (such as a list that is sorted, for example.)</remarks>
     public class UnsortedList<TType> : IList<TType>
     {
-        private int _itemCount = 0;
-        private int _iteratorIndex = 0;
-        private readonly TType[] _list;
+        protected int _itemCount = 0;
+        protected int _iteratorIndex = 0;
+        protected readonly TType[] _list;
 
         public UnsortedList(int size)
         {
@@ -22,7 +24,7 @@ namespace PMasta.Learning.DataStructures.UnsortedList
             this._list = new TType[size];
         }
 
-        public void AddItem(TType item)
+        public virtual void AddItem(TType item)
         {
             if(this.IsFull())
             {
@@ -87,7 +89,7 @@ namespace PMasta.Learning.DataStructures.UnsortedList
             return _itemCount;
         }
 
-        public void RemoveItem(TType item)
+        public virtual void RemoveItem(TType item)
         {
             if(!this.Contains(item))
             {
@@ -113,7 +115,7 @@ namespace PMasta.Learning.DataStructures.UnsortedList
             this._iteratorIndex = 0;
         }
 
-        private int GetIndex(TType item)
+        public int GetIndex(TType item)
         {
             int index = 0;
 

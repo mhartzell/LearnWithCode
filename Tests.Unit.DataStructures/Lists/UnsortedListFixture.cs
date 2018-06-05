@@ -1,10 +1,8 @@
-﻿using PMasta.Learning.DataStructures.UnsortedList;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PMasta.Learning.DataStructures.Lists;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace PMasta.Learning.Tests.Unit.DataStructures
+namespace PMasta.Learning.Tests.Unit.DataStructures.Lists
 {
     /// <summary>
     /// Tests related to the Unsorted List.
@@ -17,7 +15,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void ConstructListSucceeds()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(10);
+            IList<int> list = new UnsortedList<int>(10);
 
             Assert.IsNotNull(list);
             Assert.IsTrue(list.Length() == 0);
@@ -36,7 +34,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void AddItemSucceeds()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(10);
+            IList<int> list = new UnsortedList<int>(10);
 
             list.AddItem(16);
 
@@ -46,7 +44,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void AddItemFailsWithDuplicateItem()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(10);
+            IList<int> list = new UnsortedList<int>(10);
 
             list.AddItem(16);
 
@@ -56,7 +54,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void AddItemFailsWithFullList()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(3);
+            IList<int> list = new UnsortedList<int>(3);
 
             list.AddItem(3);
             list.AddItem(16);
@@ -72,7 +70,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void EmptyListSucceeds()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(10);
+            IList<int> list = new UnsortedList<int>(10);
 
             list.AddItem(16);
 
@@ -90,7 +88,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void GetNextItemSucceeds()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(10);
+            IList<int> list = new UnsortedList<int>(10);
 
             list.AddItem(16);
             list.AddItem(3);
@@ -104,7 +102,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void GetNextItemSucceedsAfterReset()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(10);
+            IList<int> list = new UnsortedList<int>(10);
 
             list.AddItem(16);
             list.AddItem(3);
@@ -127,7 +125,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void ListIsFullSucceeds()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(3);
+            IList<int> list = new UnsortedList<int>(3);
 
             list.AddItem(16);
             list.AddItem(3);
@@ -139,7 +137,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void ListIsFullFails()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(10);
+            IList<int> list = new UnsortedList<int>(10);
 
             list.AddItem(16);
             list.AddItem(3);
@@ -155,7 +153,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void RemoveItemSucceeds()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(5);
+            IList<int> list = new UnsortedList<int>(5);
 
             list.AddItem(16);
             list.AddItem(3);
@@ -177,7 +175,7 @@ namespace PMasta.Learning.Tests.Unit.DataStructures
         [TestMethod]
         public void RemoveItemFailsWithMissingItem()
         {
-            Learning.DataStructures.UnsortedList.IList<int> list = new UnsortedList<int>(5);
+            IList<int> list = new UnsortedList<int>(5);
 
             list.AddItem(16);
             list.AddItem(3);

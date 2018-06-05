@@ -1,4 +1,4 @@
-﻿namespace PMasta.Learning.DataStructures.UnsortedList
+﻿namespace PMasta.Learning.DataStructures.Lists
 {
     /// <summary>
     /// Defines an interface for a basic List that is not sorted.
