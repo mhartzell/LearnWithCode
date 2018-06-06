@@ -19,7 +19,7 @@ namespace PMasta.LearnWithCode.DataStructures.List
         {
             if(size == 0)
             {
-                throw new InvalidOperationException("You must provide a size greater than zero.");
+                throw new ArgumentNullException("You must provide a size greater than zero.");
             }
 
             this._list = new T[size];

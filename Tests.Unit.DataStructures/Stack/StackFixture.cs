@@ -20,6 +20,12 @@ namespace PMasta.LearnWithCode.Tests.Unit.DataStructures.Stack
             Assert.IsNotNull(stack);
         }
 
+        [TestMethod]
+        public void ConstructFailsWithZeroSize()
+        {
+            Assert.ThrowsException<ArgumentNullException>(() => new Stack<int>(0));
+        }
+
         #endregion
 
         #region Empty

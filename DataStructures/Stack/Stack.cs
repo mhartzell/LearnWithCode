@@ -15,17 +15,25 @@ namespace PMasta.LearnWithCode.DataStructures.Stack
         /// <summary>
         /// Public constructor.
         /// </summary>
-        /// <param name="size">The requested size of the array.</param>
+        /// <param name="size">The requested size of the stack.</param>
         public Stack(int size)
         {
+            if(size == 0)
+            {
+                throw new ArgumentNullException("size", "You must provide a size for the stack.");
+            }
+
             this._size = size;
             this._theStack = new T[this._size];
         }
 
         public void Empty()
         {
-            this._theStack = new T[this._size];
-            this._currentIndex = 0;
+            if (this._currentIndex > 0)
+            {
+                this._theStack = new T[this._size];
+                this._currentIndex = 0;
+            }
         }
 
         public bool IsEmpty()

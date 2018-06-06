@@ -24,7 +24,7 @@ namespace PMasta.LearnWithCode.Tests.Unit.DataStructures.List
         [TestMethod]
         public void ConstructListFailsWithZeroSize()
         {
-            Assert.ThrowsException<InvalidOperationException>(() => new SortedList<int>(0));
+            Assert.ThrowsException<ArgumentNullException>(() => new SortedList<int>(0));
         }
 
         #endregion
