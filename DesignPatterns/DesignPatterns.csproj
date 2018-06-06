@@ -10,7 +10,6 @@
     <Folder Include="Behavioral\" />
     <Folder Include="Enterprise\" />
     <Folder Include="Presentation\" />
-    <Folder Include="Structural\" />
   </ItemGroup>
 
 </Project>
